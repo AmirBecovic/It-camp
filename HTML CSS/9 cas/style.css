@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.first {
+  width: 400px;
+  height: 400px;
+  background-image: url("https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=1380&t=st=1695752860~exp=1695753460~hmac=acd4d9aeab3d3a40df04cc6689ec3cd5e89b69e23465b1e9d2c3675d2dccdfd2");
+  /* background-repeat: repeat; */
+  background-repeat: no-repeat;
+  /* background-size: contain; razvlaci se fotografija do momenta dok ne stigne do prve ivice. */
+  /* background-size: cover; razvlaci se fotografija kako bi prekrila ceo kontejner (gubi se deo fotografije)  */
+  background-size: 300px 400px;
+  background-size: 100% 100%;
+  overflow: auto;
+}
+
+.first h1,
+p {
+  color: azure;
+}
+
+.first h1 {
+  text-align: center;
+}
+
+.first p {
+  line-height: 30px;
+  letter-spacing: 2px;
+}
+
+.first:nth-of-type(2) {
+  box-sizing: border-box;
+  padding: 15px;
+}

@@ -1,0 +1,63 @@
+.main {
+  height: 600px;
+  width: 350px;
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: turquoise;
+  margin: 40px 40px 0px;
+  box-shadow: 0px 0px 6px 9px rgba(0, 0, 0, 0.4);
+  /* overflow: visible; default */
+  overflow: hidden;
+  /* overflow: scroll; da mozemo da skrolujemo tekst */
+  /* overflow: auto; dodaje scrollbar kada je neophodno */
+  display: inline-block;
+  /* visibility: hidden; */
+}
+
+.main:nth-of-type(2) {
+  display: none;
+}
+
+.second{
+  display: none;
+}
+
+/* Block level html elementi */
+/* <h1>,<h2>,<h3>,<h4>,<h5>,<h6> */
+/* <p> */
+/* <div>,<main>,<article>,<section>,<header>,<footer> */
+/* <ol>,<ul>,<li> */
+
+/* Inline html elementi: */
+/* <input>,<a>,<span>,<button>,<textarea> */
+/* <img> tag je inline-block element - to su elementi koji dozvaljavaju definisanje sirine i visine za razliku od inline elemenata. */
+/* <img> */
+
+.main:hover {
+  background-color: rgb(251, 251, 105);
+}
+.main img:hover {
+  content: url(https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg);
+}
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 21px;
+  font-weight: bold;
+}
+h2 {
+  text-transform: capitalize;
+  font-size: 18px;
+  padding: 10px;
+}
+p {
+  text-align: justify;
+  padding: 10px;
+  text-indent: 20px;
+}
+img {
+  width: 350px;
+  height: 200px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
