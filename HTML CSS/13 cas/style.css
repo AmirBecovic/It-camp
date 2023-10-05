@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap");
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.body {
+    background-color: rgb(210, 180, 140);
+    font-family: "Poppins", sans-serif;
+}
+
+.main {
+    /* rgba cini nasu pozadinu prozirnom u odredjenoj meri - zavisi od a parametra (0-1) */
+    /* background-color: rgba(87, 210, 255, 0.7); */
+    background-color: rgb(87, 210, 255);
+    /* opacity cini ceo element prozirnim (sa sve sadrzajem) */
+    opacity: 0.5;
+    width: 500px;
+    height: 500px;
+}
+.image {
+    width: 500px;
+    height: 300px;
+    float: left;
+    /* float: right; */
+    margin-right: 15px;
+}
+
+.box1 {
+    background-color: rgba(234, 248, 50, 0.8);
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+
+.box2 {
+    background-color: rgb(72, 235, 88);
+    width: 500px;
+    height: 500px;
+    /* float: right; */
+    float: left;
+}
+
+.paragraf {
+    clear: both;
+}

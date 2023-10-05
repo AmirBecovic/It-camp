@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap");
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(223, 189, 146);
+    font-family: "Poppins", sans-serif;
+}
+
+.main {
+    background-color: cadetblue;
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+}
+
+/* Stilovi za svaki p tag koji se nalazi unutar .main kontejnera: */
+/* .main p {
+    color: #6000000;
+} */
+
+/* Stilovi za p tag koji je direktno child element .main kontejnera */
+.main > p {
+    color: #600000;
+}
+
+/* Stilovi za prvi p tag koji se nalazi nakon .main kontejnera */
+.main + p {
+    color: rgb(77, 77, 255);
+}
+
+.second {
+    background-color: springgreen;
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+}
+
+.icon {
+    text-align: center;
+}
+
+.instagram {
+    color: orangered;
+    font-size: 50px;
+}
+
+.discord {
+    color: crimson;
+    font-size: 50px;
+}
+    
+a {
+    color: pink;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: 600;
+}
+
+a:hover {
+    background-color: #12674A;
+    color: #96939B;
+}
+
+a:active {
+    background-color: red;
+}
+
+a:visited {
+    color: yellow;
+}
+
+.main:active {
+    background-color: #000000;
+}

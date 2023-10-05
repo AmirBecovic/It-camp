@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  float: right;
+}
+
+.box1 {
+  background-color: red;
+}
+.box2 {
+  background-color: chocolate;
+}
+.box3 {
+  background-color: aqua;
+}
+.box4 {
+  background-color: greenyellow;
+  /* clear: both; */
+}
+.box5 {
+  background-color: green;
+}
+.box6 {
+  background-color: violet;
+}
+.box7 {
+  background-color: blue;
+}
