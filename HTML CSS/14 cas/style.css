@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap");
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+}
+
+.container {
+    /* width: 350px;
+    height: 400px; */
+    /* width: 20cm;
+    height: 20cm; */
+    /* width: 200mm;
+    height: 200mm; */
+    /* width: 5in;
+    height: 5in; */
+    /* width: 500pt;
+    height: 500pt; */
+    /* width: 30pc;
+    height: 30pc; */
+    /* width: 40vw;
+    height: 40vw; */
+    /* width: 50vh;
+    height: 100vh; */
+    /* width: 50vmin;
+    height: 100vmin; */
+    width: 50vmax;
+    height: 100vmax; 
+    background-color: aquamarine;
+    border: 1px solid black;
+    float: left;
+    font-size: 20px;
+}
+
+/* .container p 
+    /* font-size: 2em; */
+    /* font-size: 2rem; */
+
+.second {
+    background-color: burlywood;
+    width: 80%;
+    height: 50%;
+}
+
+/* .container:nth-of-type(2), 
+.container:nth-of-type(4) {
+    background-color: yellow;
+} */
+
+/* stilovi za parne elemente */
+/* .container:nth-last-of-type(even) {
+    background-color: yellow;
+} */
+
+/* 4n npr je za svaki cetvrti da se oboji */
+/* stilovi za neparne elemente */
+.container:nth-of-type(3n) {
+    background-color: yellow;
+}
+
+.container:nth-last-of-type(3) {
+    background-color: brown;
+}
+
+/* Apsolutne velicine */
+/* px - pixels */
+/* cm */
+/* mm */
+/* in (inch)=1 inch=96piksela */
+/* pt - points= 1 point = 1/72 inch */
+/* pc - picas = 1pc = 12 point */
+
+/* Relativne velicine */
+/* em - relativna u odnosu na font-size elementa */
+/* rem - relativna u odnosu na font-size root elementa */
+/* vw - relativna je 1% u odnosu na sirinu ekrana */
+/* vh - relativna je 1% u odnosu na visinu ekrana */
+/* vmin - relativna je 1% u odnosu na manju dimenziju */
+/* vmax - relativna je 1% u odnosu na vecu dimenziju */
+/* % - relativna je u odnosu na parent element */
