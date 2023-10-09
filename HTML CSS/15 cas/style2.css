@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.parent {
+    background-color: brown;
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+}
+
+.child1 {
+    background-color: yellow;
+    position: relative;
+    top: 30px;
+    width: 150px;
+    height: 150px;
+    left: 50px;
+}
+
+.child2 {
+    background-color: aquamarine;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 120px;
+    top: 150px;
+    z-index: 50;
+}
+
+.child3 {
+    background-color: blue;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    left: 180px;
+    top: 100px;
+}
