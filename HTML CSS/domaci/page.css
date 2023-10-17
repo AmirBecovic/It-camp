@@ -1,0 +1,231 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.header {
+  /* background-color: blue; */
+  padding: 5px;
+  position: relative;
+  height: 65px;
+  border: outset;
+}
+
+.head {
+  /* background-color: aqua; */
+  height: 45px;
+}
+
+.logo {
+  float: left;
+  width: 70px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.categorie {
+  font-size: 24px;
+  color: black;
+  float: left;
+  margin-left: 2%;
+  margin-top: 9px;
+}
+
+.bussines {
+  font-size: 24px;
+  margin-top: 9px;
+  margin-left: 50%;
+}
+
+.teach {
+  font-size: 24px;
+  margin-top: -27px;
+  margin-left: 62%;
+}
+
+.learning {
+  font-size: 24px;
+  margin-left: 74.5%;
+  margin-top: -26px;
+}
+
+.head a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+#icon {
+  color: black;
+  position: relative;
+  padding: 15px;
+  float: right;
+  top: -42px;
+  right: 7px;
+}
+
+.icons {
+  float: right;
+}
+
+input {
+  padding: 15px;
+  width: 34%;
+  height: 30px;
+  position: relative;
+  left: 20px;
+  top: 9px;
+  border-radius: 20px;
+  height: 5vh;
+}
+
+.navbar {
+  position: relative;
+  top: -32px;
+}
+
+.head {
+  width: 100%;
+  border: rgb(181, 181, 181) solid 1px;
+  box-shadow: 0px 5px 15px -3px rgba(0, 0, 0, 0.5);
+}
+
+.head h2 {
+  display: inline-block;
+  font-size: 18px;
+  height: 40px;
+  position: relative;
+  left: 120px;
+  padding: 6px;
+  font-size: 16px;
+}
+
+.main img {
+  width: 1200px;
+  height: 360px;
+  margin-left: 160px;
+  position: fixed;
+  margin-top: 1px;
+}
+
+.second {
+  position: relative;
+  background-color: white;
+  width: 400px;
+  height: 150px;
+  top: 50px;
+  left: 200px;
+  padding: 20px;
+  letter-spacing: 0.3px;
+}
+
+.name {
+  position: relative;
+  top: 230px;
+  display: inline-block;
+  padding: 5px;
+  width: 100%;
+  font-size: 15px;
+}
+
+.amir {
+  float: left;
+  position: relative;
+  left: 173px;
+}
+
+.tag {
+  float: right;
+  font-size: 17px;
+  position: relative;
+  right: 200px;
+  color: rgb(89, 26, 184);
+  font-weight: bold;
+}
+
+.first {
+  width: 350px;
+  height: 150px;
+  /* background-color: blue; */
+  position: relative;
+  top: 250px;
+  left: 180px;
+  display: inline-block;
+  border: black solid 1px;
+  border-radius: 1px;
+}
+
+.clock {
+  font-size: 12px;
+  width: 250px;
+  float: right;
+  padding: 20px;
+  letter-spacing: 2px;
+}
+
+.first img {
+  width: 90px;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+.lecture {
+  width: 350px;
+  height: 150px;
+  margin: auto;
+  /* background-color: blue; */
+  position: relative;
+  top: 250px;
+  left: 250px;
+  display: inline-block;
+  border: black solid 1px;
+  border-radius: 1px;
+}
+
+.lecture img {
+  width: 90px;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+.teacher {
+  font-size: 12px;
+  width: 250px;
+  float: right;
+  padding: 20px;
+  letter-spacing: 2px;
+}
+
+.third {
+  width: 350px;
+  height: 150px;
+  float: right;
+  /* background-color: blue; */
+  position: relative;
+  top: 250px;
+  right: 160px;
+  display: inline-block;
+  border: black solid 1px;
+  border-radius: 1px;
+}
+
+.maguire {
+  font-size: 12px;
+  width: 250px;
+  float: right;
+  padding: 20px;
+  letter-spacing: 2px;
+}
+
+.third img {
+  width: 90px;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
