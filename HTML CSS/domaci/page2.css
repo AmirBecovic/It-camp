@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top {
+    /* background-color: aqua; */
+    padding: 8px;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    border: outset;
+}
+
+.top a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    width: 70px;
+    height: 60px;
+}
+
+.search {
+    padding: 15px;
+    width: 34%;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    gap: 10px;
+    font-size: 11px;
+    box-shadow: 0px 5px 15px -3px rgba(0, 0, 0, 0.5);
+}
+
+.head a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pastel img {
+    width: 1200px;
+    height: 360px;
+}
+
+.second {
+    position: relative;
+    background-color: white;
+    width: 400px;
+    height: 150px;
+    top: -315px;
+    left: 30px;
+    padding: 20px;
+    letter-spacing: 0.3px;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 90px;
+    flex-direction: column;
+}
+
+.name {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: -230px;
+    font-size: 15px;
+    gap: 30%;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.clock {
+    width: 300px;
+    height: 150px;
+    border: black solid 1px;
+    position: relative;
+    font-size: 12px;
+}
+
+.teacher{
+    position: relative;
+    width: 300px;
+    height: 150px;
+    border: black solid 1px;
+    font-size: 12px;
+}
+
+.maguire{
+    position: relative;
+    width: 300px;
+    height: 150px;
+    border: black solid 1px;
+    font-size: 12px;
+}
+
+.picture {
+    width: 150px;
+    height: 120px;
+    padding: 5px;
+    float: left;
+}
