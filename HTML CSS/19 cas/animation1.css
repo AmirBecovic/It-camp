@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    margin: auto;
+    background-color: darkkhaki;
+    width: 500px;
+    height: 500px;
+}
+
+.child {
+    width: 50%;
+    height: 50%;
+    background-color: cadetblue;
+    transition: transform 1s ease-in-out;
+}
+
+.parent:hover .child {
+    transform: translateX(100%);
+    /* transform: translateY(100%); */
+    /* transform: translateZ(100%); */
+    /* transform: scale(1.2, 0.8); */
+}
