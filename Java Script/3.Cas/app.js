@@ -18,4 +18,12 @@ console.log(paragraf.innerHTML)
 // 2. $
 // 3. _
 
-// Napomena
+// Napomena. U nazivu promenljive se moze naci broj, ali ona ne sme poceti brojem
+
+amir = "Amir je odlican ucenik druge godine srednje skole."
+
+// JavaScript je case sensitive!!!
+
+console.log(amir)
+
+// Postoje 4 nacina da deklarisemo promenljivu u JavaScriptu:
