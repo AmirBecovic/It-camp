@@ -11,3 +11,11 @@ alert("Upozorenje korisniku")
 
 // 4. console.log()
 console.log(paragraf.innerHTML)
+
+// JavaScript name mora pocinjati sa:
+
+// 1. Slovom
+// 2. $
+// 3. _
+
+// Napomena
